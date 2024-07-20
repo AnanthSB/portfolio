@@ -1,0 +1,9 @@
+.footerContainerHomePage{
+    color: #fff;
+    /* background-color: #000000c4; */
+    background-image: linear-gradient(to right, #0101135c , #0002118a);
+    border-top: 1px solid #8080803b;
+    width: 100%;
+    margin: 0px;
+    padding: 0.3rem 0rem;
+}

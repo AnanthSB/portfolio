@@ -1,0 +1,105 @@
+.resumeContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem !important;
+  }
+.resumePage1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resumePage2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resumePage1 img{
+    width: 600px;
+}
+.resumePage2 img{
+    width: 600px;
+    padding-bottom: 1vw;
+}
+#loadingDiv{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#embedDiv{    
+    position: relative;
+    z-index: 5;
+    top: -99vh;
+    left: 0px;
+    /* display: none; */
+}
+.downloadContainer{
+    /* z-index: 10; */
+    /* position: fixed; */
+    /* bottom: 5%; */
+    /* right: 0%; */
+    /* left: 86%; */
+    width: 80px;
+    text-align: center;
+    background-color: #00000057;
+    border: 1px solid #f0f8ff82;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 0px aliceblue;
+}
+.downloadContainer:hover{
+    box-shadow: 0px 0px 2px 0px aliceblue;
+}
+hr{
+    margin: 5px 0;
+}
+
+@media screen and (max-width:850px){
+    .resumeContainer{
+        width: 97vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vw;
+        margin-top: 5rem;
+        padding-top: 3rem;
+    }
+    .resumeContainer > hr{
+        margin: 1vw 0px;
+    }
+    .resumePage1{
+        width: 90vw;
+        margin-top: -28vw;
+    }
+    .resumePage1 > img{
+        width: 70vw;
+        margin-top: 28vw;
+    }
+    .resumePage2{
+        width: 90vw;
+
+    }
+    .resumePage2 > img{
+        width: 70vw;
+        margin-bottom: 5vw;
+    }
+    .downloadContainer{
+        /* position: fixed; */
+        /* right: 0vw; */
+        /* left: 85vw; */
+        /* top: 80%; */
+        width: 13vw;
+        height: 4.5vw;
+        font-size: 2.65vw;
+    }
+    .downloadContainer > a{
+        font-size: 2.45vw;
+    }
+}

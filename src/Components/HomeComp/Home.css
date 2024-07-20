@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.helloClass{
+    font-weight:bolder; 
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.1rem !important;
+}
+.descriClass{
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+    padding: 0% 15%;
+    font-size: 1.5rem !important;
+}
+#responsiveProficon{
+    height: 13vw;
+    width:16%;
+    height:165px;  /*for zoom-in and zoom-out*/
+    width: 165px;  /*for zoom-in and zoom-out*/
+    border: 5px outset #00000059;
+    border-radius:100% ;
+    position:absolute;
+    right:3%;
+    top:65% ;
+    transform: rotate(20deg);
+}
+
+.respWorkspaceImg{
+    width:100%;
+    height:250px;
+    box-shadow: 0px 0px 0px 0px currentColor;
+    border-bottom: 5px outset #000000a6;
+    border-top: 2px outset #00000087;
+    border-right: 2px outset #000;
+    border-left: 2px outset #0000005e;
+    position: relative;
+}
+
+.descriContainer{
+    padding: 3.8% 0%;
+}
+.containerMain{
+    background-image: url('../HomeComp/media/startFalling.jpg');
+    /* background-image: url('../HomeComp/media/describg3.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(188,189,189);
+    padding-top: 3rem !important;
+}
+.innerContainer{
+    font-size: 0.85rem;
+    left: 50%;
+    position: absolute;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    bottom: -0.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    grid-gap: 15%;
+    font-size: 0.75rem;
+    font-family: 'Courgette', cursive;
+}
+@media only screen and (max-width: 1000px) {
+    *{
+        box-sizing: unset;       
+    }
+    #responsiveProficon {
+        height: 18vw;
+        width:21%;
+        border: 5px outset #00000059;
+        border-radius:100% ;
+        position:absolute;
+        right:3%;
+        top:81% ;
+        transform: rotate(20deg);
+    }
+    .descriClass{
+        padding: 0% 0%
+    }
+    .respWorkspaceImg{
+        width:100%;
+        height:56vw;
+    }
+    .descriContainer{
+        margin-top:10%;
+    }
+    .innerContainer{
+        bottom: -8px;
+        grid-gap: 10%;
+        font-size: 0.75rem;
+    }
+    .containerMain{
+        height: auto;
+    }
+  }
+@media only screen and (max-width: 550px){
+    .containerMain{
+        /* padding-top: 3rem; */
+        min-height:100vh;
+    }      
+  }
+@media screen and (max-width: 850px) {
+    .containerMain{
+        height: auto;
+        width: 100vw;
+        /* margin-top: 3.500rem; */
+        /* padding-top: 3rem; */
+    }
+    .containerMain > .my-1{
+        padding-top: 1rem;
+    }
+    .innerContainer{
+        bottom: -3.3vw;
+        grid-gap: 10%;
+        font-size: 2.75vw;
+        height: 5vw;
+    }
+    .respWorkspaceImg{
+        width: 98.2vw;
+        height: 30vw;
+        border-bottom: 1vw outset #000000a6;
+    }
+    #responsiveProficon{
+        border: 2px outset #00000059;
+        height: 15vw;
+        right: 4vw;
+        top: 26vw;
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg);
+        width: 15vw;
+    }
+    .descriContainer{
+        margin-top: 10vw;
+        padding: 3.75vw 0vw;
+        max-width: 87vw;
+        max-height: 54vh;
+    }
+    .helloClass {
+        width: 26vw;
+        font-size: 5.35vw !important;
+        margin-bottom: 1.25vw !important;
+        margin-top: 0px;
+    }
+    .descriParaContainer{
+        padding: 0px 4.75vw;
+        text-indent: 11.75vw;
+    }
+    .descriClass{
+        font-size: 4.65vw !important;
+    }
+    .footerContainer{
+        height: 6.95vw;
+        width: 100vw;
+    }
+    .footerContainer > p{
+        font-size: 2.30vw;
+    }
+  }

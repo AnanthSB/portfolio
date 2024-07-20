@@ -1,0 +1,17 @@
+.toggleRightBarUlContainer{
+    border: 1px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 28vh;
+    position: fixed;
+    bottom: 35%;
+    right: 2%;
+    z-index: 5;
+}
+.toggleRightBarUlContainer > .navUL{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    grid-gap: 1rem;
+}

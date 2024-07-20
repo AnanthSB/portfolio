@@ -1,0 +1,141 @@
+a{
+    text-decoration: none;
+}
+.card-body > p > a:hover{
+    text-decoration: underline;
+}
+.card-text > b > a:hover{
+    text-decoration: underline;
+}
+.accordion-body{
+    padding:0px;
+}
+.mx-2{
+    margin-right:.5 !important;
+    margin-left: 0 !important;
+}
+.card-title{
+    margin:.5rem auto;
+}
+.card-text{
+    min-height: 17vh;
+    max-height: 17vh;
+}
+.accordion-item:last-of-type{
+   border-bottom-right-radius:0px;
+    border-bottom-left-radius: 0px;
+}
+
+.accordion-button::after{
+    filter: invert(1);
+}
+.accordion >  h2{
+    color: rgb(1297,198,199);
+}
+
+p[class="card-text"]{
+    overflow-y: scroll;
+}
+.projectsContainer{
+    width: 100%;
+    flex-flow: column nowrap;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.9rem
+}
+.ulContainer{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 121px;
+}
+p{
+    margin: 0.5rem;
+}
+.videosContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    grid-gap: 15px;
+}
+.videoContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.videoContainer > h3{
+    width: 632px;
+    max-width: 632px;
+    padding-left: 5px;
+    font-size: 1.25rem;
+}
+.videoContainer > video{
+    max-width: 632px;
+    /* max-height: 50%; */
+    border: 1px solid antiquewhite;
+}
+.outerContainer{
+    padding-top: 3rem !important;
+    margin-top:1%;
+    min-height:534px;
+    flex-flow:column;
+    justify-content:center;
+}
+@media (min-width: 1200px){
+    .h4, h4{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .belowScreen800px{
+        width: 100%;
+    }
+    p[class="card-text"]{
+        overflow-y: scroll;
+    }
+    .outerContainer {
+        padding-top: 4rem;
+        margin-top: 18vw;
+        min-height: auto;
+    }
+    .outerContainer > h2{
+        padding: 0.5vw 0vw;
+        margin: 1vw 0vw;
+        margin-top: 2rem;
+        /* font-size: 2vw; */
+    }
+    .projectsContainer{
+        width: 100vw;
+        margin-top: 2vw;
+        font-size: 1.5vw;
+    }
+    .h4BottomMargin{
+        margin-bottom: 1vw;
+        font-size: 2vw;
+    }
+    .projectsContainer > div{
+        width: 76vw;
+    }
+    .ulContainer{
+        margin-left: 14.5vw;
+        width: 52vw;
+    }
+    .ulContainer > ul{
+        margin-bottom: 2vw;
+    }
+    .videoContainer{
+        width: 100vw;
+    }
+    .videoContainer > h3{
+        /* font-size: 1.5vw; */
+        width: 79vw;
+        /* max-width: 632px; */
+    }
+    .videoContainer > video{
+        max-width: 80vw;
+    }
+  }

@@ -1,0 +1,117 @@
+#AnanthProfileImg {
+    text-decoration: none;
+    height: 40px;
+}
+
+#AnanthProfileImg:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    /* background-image: url('../NavComp/describg4.jpg'); */
+    background-image: linear-gradient(to right, #020202,#343434e3 , #070707);
+    padding: 4px 0px
+}
+.ul{
+    position: absolute;
+    right: 1%;
+    list-style-type: none;
+}
+.nav-link:hover{
+    border-bottom: 1px solid;
+}
+.nav-itmes > .nav-links:hover{
+    text-decoration: none;
+}
+.AnanthProfileImgIcon{
+    width: 40px;
+    padding-top: 5px;
+    height: 40px;
+}
+.AnanthProfileImgIcon > img{
+    width: 40px;
+    border-radius: 100px;
+    height: 40px;
+    transform: rotate(20deg) scale(0.75);
+    border: 2px outset black;
+}
+.navbar-collapse{
+    align-items: flex-end;
+}
+@media only screen and (max-width: 1000px) {
+    .ul{
+        position: relative;
+        right: auto;
+        margin-top: 2rem;
+        margin-bottom: 0rem !important;
+    }
+    
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 0px 6px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        height: 28px;
+        align-items: center;
+    }
+}
+.navULli{
+ height: 23px;   
+}
+.navBarStyle{
+    z-index: 10;
+    box-shadow: #d9cbcb70 2px 0px 2px 2px;
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+@media screen and (max-width: 850px) {
+    .navBarStyle{
+        position:fixed; 
+    }
+    .navbar-dark .navbar-toggler{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    #AnanthProfileImg {
+        text-decoration: none;
+        /* height: 5vw; */
+        /* font-size: 2.75vw; */
+    }
+    .navUL > li{
+        height: 15vw;
+    }
+    .AnanthProfileImgIcon{
+        width: 10vw;
+        display: flex;
+        height: 8vw;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0.75vw;
+        padding-top: 0vw;
+        border-bottom: 1px solid;
+        margin-bottom: 3.5px;
+    }
+    .AnanthProfileImgIcon > img{
+        width: 10vw;
+        height: 10vw;
+        border: 2px outset black;
+    }
+    /* .navUL{
+        height: 17vw !important;
+    } */
+    .navULli > a{
+        padding: 0px !important;
+        font-size: 5vw;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0.25vw;
+    }
+    .navbar-toggler{
+        padding: 1vw 1.75vw;
+        font-size: 3vw;
+        line-height: 0vw;
+    }
+
+}

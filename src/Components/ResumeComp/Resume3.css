@@ -1,0 +1,94 @@
+a{
+    text-decoration: none;
+    color: #e7e9ea;
+}
+a:hover{
+    color: #aeb1b3;
+}
+.resumeMainContainer{
+    color: #c6c9cc;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.nameTitle{
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+.nameTitle > h1{
+    margin: 0.75rem 0rem;
+}
+.reactDev{
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    background-image: linear-gradient(to right, #21288cc7 , #11cbdc);
+    color: #fff;
+}
+.reactDev > h4{
+    margin: 0px;
+}
+.contactDetails{
+    color: #e7e9ea;
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95rem;
+    min-height: 32px;
+    font-weight: lighter;
+    grid-gap: 45px;
+}
+hr{
+    background-image: linear-gradient(to right, #21288cc7 , #11cbdc);
+    height: 1px;
+    width: 64%;
+    margin: 0px;
+}
+.keySkills{
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    flex-flow: column;
+    margin-bottom: 0.25rem;
+}
+.marginLeft2Rem{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.educationContainer{
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    flex-flow: column;
+    margin-bottom: 1rem;
+}
+.educationBody{
+    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+}
+@media screen and (max-width:850px){
+    .contactDetails{
+        grid-gap: 15px;
+        min-height: 32px;
+        flex-flow: row wrap;
+        padding-top: 0.5rem;
+        justify-content: flex-start;
+        margin-left: 4rem;
+    }
+}
